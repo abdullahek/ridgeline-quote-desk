@@ -1,0 +1,14 @@
+# Binary formats: never apply line-ending conversion
+*.pdf  binary
+*.xlsx binary
+*.png  binary
+*.jpg  binary
+*.zip  binary
+
+# Supplied data pack: keep byte-identical on every checkout
+rfqs/**              -text
+answer_key/**        -text
+products.csv         -text
+cross_reference.csv  -text
+customers.csv        -text
+check_submission.py  -text

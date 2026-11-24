@@ -1,0 +1,27 @@
+# Environment secrets (keep the template)
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local IDE / OS settings
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Generated submission zip (written by check_submission.py at the repo root)
+/ridgeline-quote-desk.zip
+/*.zip
