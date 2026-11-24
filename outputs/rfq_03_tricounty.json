@@ -1,0 +1,116 @@
+{
+  "rfq_id": "rfq_03_tricounty",
+  "customer_id": "C1010",
+  "customer_name": "Tri-County Water District",
+  "lines": [
+    {
+      "line": 1,
+      "as_written": "NF-220418 | 3/4 brass ball valve FP | 15 | EA",
+      "quantity": 15,
+      "unit": "EA",
+      "ridgeline_part_number": "RL134741",
+      "match_method": "cross_reference",
+      "confidence": 0.95,
+      "needs_review": false,
+      "flags": [],
+      "note": "Northfield Supply NF-220418 -> RL134741 via cross-reference; customer description consistent with the product"
+    },
+    {
+      "line": 2,
+      "as_written": "NF-220420 | 1\" brass ball valve FP | 10 | EA",
+      "quantity": 10,
+      "unit": "EA",
+      "ridgeline_part_number": "RL179507",
+      "match_method": "cross_reference",
+      "confidence": 0.95,
+      "needs_review": false,
+      "flags": [],
+      "note": "Northfield Supply NF-220420 -> RL179507 via cross-reference; customer description consistent with the product"
+    },
+    {
+      "line": 3,
+      "as_written": "same as above but 1/2\" | 10 | EA | same spec as line 2",
+      "quantity": 10,
+      "unit": "EA",
+      "ridgeline_part_number": "RL172063",
+      "match_method": "description",
+      "confidence": 0.88,
+      "needs_review": false,
+      "flags": [
+        "inherited_from_line"
+      ],
+      "note": "customer note: same spec as line 2; inherits line 2 ('1\" brass ball valve FP') with size 1/2\"; its part number is not reused | all 1 stated specs match (1/2in); text similarity 1.00; material brass matches"
+    },
+    {
+      "line": 4,
+      "as_written": "NF-118203 | 2\" flange gasket 150# | 40 | EA",
+      "quantity": 40,
+      "unit": "EA",
+      "ridgeline_part_number": "RL118373",
+      "match_method": "cross_reference",
+      "confidence": 0.95,
+      "needs_review": false,
+      "flags": [],
+      "note": "Northfield Supply NF-118203 -> RL118373 via cross-reference; customer description consistent with the product"
+    },
+    {
+      "line": 5,
+      "as_written": "NF-118204 | 3\" flange gasket 150# | 40 | EA | 1/16 thk",
+      "quantity": 40,
+      "unit": "EA",
+      "ridgeline_part_number": "RL124050",
+      "match_method": "cross_reference",
+      "confidence": 0.85,
+      "needs_review": true,
+      "flags": [
+        "cross_ref_note"
+      ],
+      "note": "customer note: 1/16 thk | Northfield Supply NF-118204 -> RL124050 via cross-reference; cross-reference note: 'check thickness'; customer description consistent with the product"
+    },
+    {
+      "line": 6,
+      "as_written": "NF-310077 | AW46 hyd oil 5 gal | 6 | PAIL",
+      "quantity": 6,
+      "unit": "PAIL",
+      "ridgeline_part_number": "RL107944",
+      "match_method": "cross_reference",
+      "confidence": 0.95,
+      "needs_review": false,
+      "flags": [],
+      "note": "Northfield Supply NF-310077 -> RL107944 via cross-reference; customer description consistent with the product"
+    },
+    {
+      "line": 7,
+      "as_written": "NF-505512 | 20x20x2 pleated filter MERV 8 | 4 | CS | cs of 12",
+      "quantity": 4,
+      "unit": "CS",
+      "ridgeline_part_number": "RL149009",
+      "match_method": "cross_reference",
+      "confidence": 0.95,
+      "needs_review": false,
+      "flags": [],
+      "note": "customer note: cs of 12 | Northfield Supply NF-505512 -> RL149009 via cross-reference; customer description consistent with the product"
+    },
+    {
+      "line": 8,
+      "as_written": "NF-999120 | Chlorine residual test kit | 2 | EA | if available",
+      "quantity": 2,
+      "unit": "EA",
+      "ridgeline_part_number": null,
+      "match_method": null,
+      "confidence": null,
+      "needs_review": true,
+      "flags": [
+        "part_not_found",
+        "no_match"
+      ],
+      "note": "customer note: if available | NF-999120 not found in cross_reference.csv; no catalog item satisfies the stated attributes"
+    }
+  ],
+  "non_item_rows": [
+    "Tri-County Water District - Request for Quotation",
+    "Bid # TCWD-26-117 Responses due 10/20/2026 Contact: R. Haines, (217) 555-0190",
+    "Item # | Desc. | Qty | UOM | Notes",
+    "Deliver to Plant 2, 4100 County Rd 9. Dock closes 2pm."
+  ]
+}

@@ -1,0 +1,5 @@
+pydantic==2.14.4
+pymupdf==2.1
+openpyxl==3.1.5
+rapidfuzz==3.14.6
+pytest==9.2.0

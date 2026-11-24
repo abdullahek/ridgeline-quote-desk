@@ -1,0 +1,22 @@
+{
+  "rfq_id": "rfq_04_handwritten",
+  "customer_id": null,
+  "customer_name": null,
+  "lines": [
+    {
+      "line": 1,
+      "as_written": "[image file rfq_04_handwritten.png: handwritten request, not transcribed]",
+      "quantity": null,
+      "unit": null,
+      "ridgeline_part_number": null,
+      "match_method": null,
+      "confidence": null,
+      "needs_review": true,
+      "flags": [
+        "stub"
+      ],
+      "note": "Handwritten/photographed RFQ: handwriting recognition is not implemented in this deterministic prototype, so no line items, quantities or customer were extracted. A person must transcribe this request before it can be quoted. | not matched: no extracted item"
+    }
+  ],
+  "non_item_rows": []
+}
